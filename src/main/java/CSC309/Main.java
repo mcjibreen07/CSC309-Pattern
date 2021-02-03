@@ -30,3 +30,24 @@ public class Main {
     }
     
 }
+
+
+
+public class Lexems {
+    private int index = 0;
+    private String txt;
+    
+    
+    public  Lexems(String input){
+        this.txt = input;
+    }
+     
+    public char getAll(){
+    if(index<txt.length())
+     
+        return txt.charAt(index++);   
+    else 
+        return ('N');
+    }
+}
+
